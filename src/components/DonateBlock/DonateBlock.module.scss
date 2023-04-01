@@ -28,7 +28,7 @@
 }
 
 .donateInfo {
-    @apply text-start pl-[75px] text-[#00B36F] leading-[18px];
+    @apply pl-[75px] text-[#00B36F] leading-[18px] text-start;
     @media (max-width: 525px) {
         @apply text-sm pl-10
     }
@@ -43,7 +43,7 @@
         }
     }
     p {
-        @apply text-[#00B36F];
+        @apply text-[#00B36F] box-border;
         @media (max-width: 525px) {
             @apply text-xs
         }
@@ -51,8 +51,8 @@
 }
 
 .heartImg {
-    @apply absolute left-[-50px] top-[25px] h-[65%];
+    @apply left-[-50px] top-[25px] h-[65%] absolute;
     @media (max-width: 525px) {
-        @apply h-[80px] top-[25%] left-[-35px]
+        @apply h-[80px] top-[25%] left-[-35px] box-border
     }
 }

@@ -1,5 +1,5 @@
 .test {
-    @apply min-h-[98vh] bg-gradient-to-br from-violet-200 to-green-100 shadow-md relative pb-[150px]
+    @apply min-h-[98vh] bg-gradient-to-br from-violet-200 to-green-100 shadow-md pb-[150px] relative
 }
 
 .container {
@@ -11,7 +11,7 @@
 }
 
 .bigLogo {
-    @apply w-[750px] 
+    @apply w-[750px] box-border
 }
 
 

@@ -41,8 +41,8 @@
 }
 
 .wither {
-    @apply absolute top-[-100px] right-[-140px];
+    @apply top-[-100px] right-[-140px] absolute;
     @media (max-width: 500px) {
-        @apply left-[-1px] top-[-110px]
+        @apply left-[-1px] top-[-110px] absolute
     }
 }

@@ -6,14 +6,14 @@
 .map {
     @apply w-[70vw] max-w-[1500px] flex h-full rounded-lg;
     @media (max-width: 1200px) {
-        @apply w-[95%]
+        @apply w-[95%] box-border
     }
 }
 
 .mapContainer {
-    @apply flex justify-center h-[65vh] max-h-[600px];
+    @apply flex h-[65vh] max-h-[600px] justify-center;
     @media (max-width: 800px) {
-        @apply h-[400px]
+        @apply h-[400px] box-border
     }
     iframe {
         @apply shadow-xl
@@ -27,7 +27,7 @@
 .info {
     @apply text-center px-[15%] my-5;
     @media (max-width: 800px) {
-        @apply px-[5%]
+        @apply px-[5%] box-border
     }
 }
 

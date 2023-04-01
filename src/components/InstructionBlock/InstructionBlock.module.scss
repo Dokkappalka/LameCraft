@@ -19,7 +19,7 @@
         @apply mb-7 font-semibold text-3xl;
         span {
             font-family: Minecraft;
-            @apply mr-3 text-3xl text-[#B280FE]
+            @apply text-3xl text-[#B280FE] mr-3
         }
     };
     @media (max-width: 800px) {
@@ -33,7 +33,7 @@
 .instructionVideo {
     @apply rounded-lg h-[350px] w-[600px] mr-10 shadow-xl;
     @media (max-width: 800px) {
-        @apply w-[80vw] mr-0 h-[250px]
+        @apply w-[80vw] h-[250px] mr-0
     }
 }
 

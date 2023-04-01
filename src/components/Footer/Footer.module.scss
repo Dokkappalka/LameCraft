@@ -9,7 +9,7 @@
         @apply w-[50px] h-[50px] cursor-pointer bg-gray-100 duration-200 rounded-lg flex justify-center items-center;
     }
     img {
-        @apply w-[25px] h-[25px]
+        @apply w-[25px] h-[25px] box-border
     }
     :nth-child(2) {
         @apply mx-3

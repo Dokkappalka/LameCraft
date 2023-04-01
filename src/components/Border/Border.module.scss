@@ -3,7 +3,7 @@
 }
 
 .border {
-    @apply flex flex-row items-center justify-center my-10 w-[25vw];
+    @apply flex flex-row items-center justify-center w-[25vw] my-10;
     .fragment {
         @apply mx-5
     }
@@ -11,5 +11,5 @@
 }
 
 .line {
-    @apply min-h-[1px]
+    min-height: 1px;
 }

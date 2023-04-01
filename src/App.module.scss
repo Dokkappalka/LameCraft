@@ -5,13 +5,13 @@ html {
 }
 
 .container {
-    @apply mt-5 mx-[25px]
+    @apply mx-[25px] mt-5
 }
 
 .modalContainer {
     @apply flex flex-col items-center;
     @media (max-width: 800px) {
-        @apply my-[15%]
+        @apply my-[15%] items-center
     }
 }
 
