@@ -1,0 +1,15 @@
+.container {
+    @apply flex flex-col justify-center items-center
+}
+
+.border {
+    @apply flex flex-row items-center justify-center my-10 w-[25vw];
+    .fragment {
+        @apply mx-5
+    }
+ 
+}
+
+.line {
+    @apply min-h-[1px]
+}

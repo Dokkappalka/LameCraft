@@ -1,0 +1,36 @@
+.container {
+    font-family: HelveticaNeueCyrRom;
+    @apply mt-10
+}
+
+.map {
+    @apply w-[70vw] max-w-[1500px] flex h-full rounded-lg;
+    @media (max-width: 1200px) {
+        @apply w-[95%]
+    }
+}
+
+.mapContainer {
+    @apply flex justify-center h-[65vh] max-h-[600px];
+    @media (max-width: 800px) {
+        @apply h-[400px]
+    }
+    iframe {
+        @apply shadow-xl
+    }
+}
+
+.title {
+    @apply text-3xl text-center font-bold
+}
+
+.info {
+    @apply text-center px-[15%] my-5;
+    @media (max-width: 800px) {
+        @apply px-[5%]
+    }
+}
+
+.infoButton {
+    @apply mb-7 border border-login-button rounded-full w-[150px] flex justify-center items-center py-1 text-login-button hover:border-pressed-login hover:text-pressed-login duration-200
+}

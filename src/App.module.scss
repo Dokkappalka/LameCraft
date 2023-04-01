@@ -1,0 +1,30 @@
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    overflow-y:overlay;
+    scroll-behavior: smooth;
+}
+
+.container {
+    @apply mt-5 mx-[25px]
+}
+
+.modalContainer {
+    @apply flex flex-col items-center;
+    @media (max-width: 800px) {
+        @apply my-[15%]
+    }
+}
+
+.loginTitle {
+    @apply font-bold text-4xl;
+}
+.loginContent {
+    font-family: HelveticaNeueCyrRom;
+    @apply  w-[90%] pt-5 leading-5 text-lg
+}
+
+.loginButton {
+    @apply rounded-full h-[40px] w-[50%] max-w-[150px] bg-login-button text-white hover:bg-pressed-login duration-200 mt-5;
+ }
+
+ 

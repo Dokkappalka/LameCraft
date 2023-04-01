@@ -1,0 +1,34 @@
+.contaier {
+    font-family: Minecraft;
+    @apply mt-[100px] flex flex-col items-center px-5 py-8 text-2xl text-violet-500 text-center border-t border-violet-200
+}
+
+.buttons {
+    @apply flex justify-center items-center mt-5;
+    a {
+        @apply w-[50px] h-[50px] cursor-pointer bg-gray-100 duration-200 rounded-lg flex justify-center items-center;
+    }
+    img {
+        @apply w-[25px] h-[25px]
+    }
+    :nth-child(2) {
+        @apply mx-3
+    }
+}
+
+
+.twitch {
+    @apply hover:border-[#9146ff] border duration-200 
+
+}
+.ds {
+    @apply hover:border-[#5865F2] border duration-200
+}
+
+.tg {
+    @apply hover:border-[#0088CC] border duration-200 
+}
+
+.end {
+    @apply text-xs mt-5 text-pink-500
+}

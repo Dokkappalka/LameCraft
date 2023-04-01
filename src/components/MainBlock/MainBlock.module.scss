@@ -1,0 +1,40 @@
+.test {
+    @apply min-h-[98vh] bg-gradient-to-br from-violet-200 to-green-100 shadow-md relative pb-[150px]
+}
+
+.container {
+    font-family: HelveticaNeueCyrRom;
+    @apply flex flex-col px-[7vw] pt-[10vh] justify-center items-center;
+    @media (max-width:800px) {
+        @apply justify-start flex-col
+    }
+}
+
+.bigLogo {
+    @apply w-[750px] 
+}
+
+
+.title {
+    @apply text-center text-2xl mt-5
+}
+
+.buttons {
+    @apply flex items-center flex-row justify-center mt-5;
+    div {
+        @apply flex flex-col px-2
+    }
+    button, a {
+        @apply rounded-full bg-login-button my-2 text-white py-2 px-10 w-[300px] hover:bg-pressed-login duration-200 text-center
+    }
+    @media (max-width: 800px) {
+        @apply flex-col;
+        button, a {
+            @apply w-[75vw] flex justify-center items-center
+        }
+    }
+}
+
+.border {
+    @apply absolute bottom-[80px] left-0 right-0 mx-auto
+}

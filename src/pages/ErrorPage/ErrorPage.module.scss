@@ -1,0 +1,13 @@
+.container {
+    font-family: HelveticaNeueCyrRom;
+    @apply text-center text-xl flex items-center flex-col pt-[20vh];
+    @media (min-width: 800px) {
+        @apply px-[20%]
+    }
+    p {
+        @apply mt-10 w-[75%] leading-none
+    }
+    img {
+        @apply w-[75%]
+    }
+}
