@@ -19,7 +19,7 @@ const MainBlock = () => {
       <div className={styles.container}>
         <img src={bigLogo} alt='Lamecraft logo' className={styles.bigLogo} />
         <p className={styles.title}>
-          Зови меня лейм, кайфую без денег но так хочу фейм
+          Ира - писюн
         </p>
         <div className={styles.buttons}>
           <div>

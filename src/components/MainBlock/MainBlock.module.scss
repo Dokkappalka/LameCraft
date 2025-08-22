@@ -4,7 +4,7 @@
 
 .container {
     font-family: HelveticaNeueCyrRom;
-    @apply flex flex-col px-[7vw] pt-[10vh] justify-center items-center;
+    @apply flex flex-col px-[7vw] pt-[2vh] justify-center items-center;
     @media (max-width:800px) {
         @apply justify-start flex-col
     }

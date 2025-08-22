@@ -85,7 +85,7 @@ const Header = () => {
   return (
     <header className={cn(styles.header, 'dark:bg-theme-dark')}>
       <div className={styles.navContainer}>
-        <img src={logo} alt='logo' className={styles.logo} />
+        <img src={logo} alt='logo' className={styles.logo} height={80} width={80} />
         <div className={styles.nav}>
           <MenuList />
         </div>
